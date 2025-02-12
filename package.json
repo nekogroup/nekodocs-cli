@@ -1,0 +1,22 @@
+{
+  "name": "nekodcli",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Christian Storch",
+  "license": "PRIVATE",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "fast-glob": "^3.3.3",
+    "inflection": "^2.0.1",
+    "inquirer": "^9.1.5",
+    "js-yaml": "^4.1.0",
+    "meow": "^11.0.0",
+    "ramda": "^0.29.0",
+    "shelljs": "^0.8.5",
+    "zlib": "^1.0.5"
+  },
+  "bin": {
+    "nekod": "./index.js"
+  }
+}
